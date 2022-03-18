@@ -1,0 +1,83 @@
+.homeRight{
+    flex: 10;
+}
+.home{
+    display: flex;
+   
+}
+.homeLeft{
+    flex: 2;
+}
+.rightBarInfoTitle , .allfriendsnametitle , .rightBarInfo{
+    margin: 30px;
+}
+.rightbarinfoItem{
+    display: flex;
+    margin-bottom: 7px;
+    
+}
+.rightBarinfoans{
+    margin-left: 15px;
+    font-size: large;
+}
+.rightBarallfriendItem{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.rightbarfrndItem{
+    display: flex;
+    flex-direction: column;
+    margin: 20px ;
+    cursor: pointer;
+    
+}
+.friendsname{
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 3px;
+    font-size: large;
+}
+.rightbarallfriends{
+    display: flex;
+    flex-wrap: wrap;
+}
+.homeRightBottom{
+
+    display: flex;
+}
+.homeRightTopCover{
+    width: 100%;
+    height: 450px;
+  
+  
+}
+.homeprofilepicture{
+    display: flex;
+
+}
+.ProfilecoverPictre{
+    overflow: hidden;
+    width: 83.3%;
+    height: 350px;
+    position:absolute;
+    object-fit: cover;
+}
+.HomeProfilePictre{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid white;
+    right: 0;
+    left: 0;
+    top: 260px;
+    margin: auto;
+}
+.toprightinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

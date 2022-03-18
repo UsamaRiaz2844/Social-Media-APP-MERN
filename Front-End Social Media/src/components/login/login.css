@@ -1,0 +1,64 @@
+.login{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 240, 227);
+}
+.loginWrapper{
+   
+    width: 80%;
+    height: 60%;
+    display: flex;
+}
+.loginwrapperLeft{
+flex: 1;
+
+}
+.loginWrapperRight{
+    flex: 1;
+    
+}
+
+.loginbox{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    border-radius: 20px;
+    height: 100%;
+    justify-content: center;
+}
+.inputfields{
+    width: 60%;
+    height: 60px;
+    margin-top: 20px;
+    border:none;
+    border-bottom: 1px solid black;
+    font-size: larger;
+
+    
+}
+.loginWrapperDesc{
+    font-size: larger;
+    font-weight: 500;
+}
+.loginWrapperLogo{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: rgb(75, 77, 0);
+}
+.inputfieldsbutton{
+    width: 60%;
+    height: 60px;
+    margin: 20px 0px 10px 0px;
+    border:none;
+   cursor: pointer;
+    font-size: larger;
+
+}
+.inputfields:focus{
+    outline: none;
+}

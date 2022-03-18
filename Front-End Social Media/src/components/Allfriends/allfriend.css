@@ -1,0 +1,21 @@
+.sideBarFriendsList{
+    padding: 10px;
+    list-style: none;
+
+}
+.sideBarFriend{
+    display: flex;
+    margin: 3px 20px;
+    align-items: center;
+}
+.friendsImg{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.friendsName{
+    font-size: 20px;
+    font-family: 500;
+}
